@@ -26,3 +26,14 @@ h1{
     font-size: 1vw;
     margin-bottom: 2vw;
 }
+button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgb(5, 5, 5);
+    border: none;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}   

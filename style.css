@@ -5,38 +5,37 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
     width: 100vw;
     height: 100vh;
-    background-color: aquamarine;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+}
+
+button{
+    background-color: #3503da;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80vh;
 }
-
-
 
 #card{
-    background-color: white;
-    border-radius: 10px;
-    width: 300px;
-    height: 300px;
-    padding: 20%;
-}
-
-h1{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 1vw;
-    margin-bottom: 2vw;
-}
-button{
-    display: block;
-    margin: 0 auto;
-    padding: 10px 20px;
-    background-color: rgb(5, 5, 5);
-    border: none;
-    color: white;
-    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
     border-radius: 5px;
-    cursor: pointer;
-}   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
